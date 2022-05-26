@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-readonly BINARY_NAME=ingress-controller-conformance
-readonly URL=https://github.com/pmalek/upload1/raw/main/"${BINARY_NAME}"
+readonly BINARY_NAME=ingress-controller-conformance.linux_arm64
+readonly URL=https://raw.githubusercontent.com/pmalek/upload1/main/"${BINARY_NAME}"
 
 set -ex
 curl -O "${URL}"
